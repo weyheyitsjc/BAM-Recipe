@@ -32,6 +32,10 @@
 		8A76745A227CC96B002AF4D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A767458227CC96B002AF4D9 /* LaunchScreen.storyboard */; };
 		8A767465227CC96B002AF4D9 /* BamRecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A767464227CC96B002AF4D9 /* BamRecipeTests.swift */; };
 		8A767470227CCC46002AF4D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A76746F227CCC46002AF4D9 /* GoogleService-Info.plist */; };
+		8AD3B68D228B9BB4001685B2 /* ViewControllerABB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3B68C228B9BB4001685B2 /* ViewControllerABB.swift */; };
+		8AD3B68F228B9BD3001685B2 /* ViewControllerALI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3B68E228B9BD3001685B2 /* ViewControllerALI.swift */; };
+		8AD3B691228B9BE8001685B2 /* ViewControllerADI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3B690228B9BE8001685B2 /* ViewControllerADI.swift */; };
+		8AD3B693228B9C07001685B2 /* ViewControllerADD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3B692228B9C07001685B2 /* ViewControllerADD.swift */; };
 		8ADC1D572285F08400E208EC /* ViewController16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC1D562285F08400E208EC /* ViewController16.swift */; };
 		8ADC1D592285F08E00E208EC /* ViewController17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC1D582285F08E00E208EC /* ViewController17.swift */; };
 		8ADC1D5B2285F09A00E208EC /* ViewController18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC1D5A2285F09A00E208EC /* ViewController18.swift */; };
@@ -83,6 +87,10 @@
 		8A767464227CC96B002AF4D9 /* BamRecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BamRecipeTests.swift; sourceTree = "<group>"; };
 		8A767466227CC96B002AF4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A76746F227CCC46002AF4D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8AD3B68C228B9BB4001685B2 /* ViewControllerABB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerABB.swift; sourceTree = "<group>"; };
+		8AD3B68E228B9BD3001685B2 /* ViewControllerALI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerALI.swift; sourceTree = "<group>"; };
+		8AD3B690228B9BE8001685B2 /* ViewControllerADI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerADI.swift; sourceTree = "<group>"; };
+		8AD3B692228B9C07001685B2 /* ViewControllerADD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerADD.swift; sourceTree = "<group>"; };
 		8ADC1D562285F08400E208EC /* ViewController16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController16.swift; sourceTree = "<group>"; };
 		8ADC1D582285F08E00E208EC /* ViewController17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController17.swift; sourceTree = "<group>"; };
 		8ADC1D5A2285F09A00E208EC /* ViewController18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController18.swift; sourceTree = "<group>"; };
@@ -185,6 +193,10 @@
 				8A3B16CE2281F70000FF8238 /* AmeriLuncView.swift */,
 				8A3B16D02281FA9500FF8238 /* AmeriDinnView.swift */,
 				8A3B16D22281FAA100FF8238 /* AmeriDessView.swift */,
+				8AD3B68C228B9BB4001685B2 /* ViewControllerABB.swift */,
+				8AD3B68E228B9BD3001685B2 /* ViewControllerALI.swift */,
+				8AD3B690228B9BE8001685B2 /* ViewControllerADI.swift */,
+				8AD3B692228B9C07001685B2 /* ViewControllerADD.swift */,
 			);
 			path = American;
 			sourceTree = "<group>";
@@ -427,7 +439,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A17143B22834993005B1077 /* FrenLuncView.swift in Sources */,
+				8AD3B691228B9BE8001685B2 /* ViewControllerADI.swift in Sources */,
 				8A767452227CC969002AF4D9 /* AmeriBreakView.swift in Sources */,
+				8AD3B693228B9C07001685B2 /* ViewControllerADD.swift in Sources */,
 				8A17143D228349A9005B1077 /* FrenDinnView.swift in Sources */,
 				8A767450227CC969002AF4D9 /* AppDelegate.swift in Sources */,
 				8A1714372283495D005B1077 /* FrenBreakView.swift in Sources */,
@@ -440,12 +454,14 @@
 				8A1714392283496E005B1077 /* FrenBrunView.swift in Sources */,
 				8ADC1D5D2285F0B100E208EC /* ViewController19.swift in Sources */,
 				8A3B16CD2281F3D200FF8238 /* AmeriBrunView.swift in Sources */,
+				8AD3B68D228B9BB4001685B2 /* ViewControllerABB.swift in Sources */,
 				8ADC1D5B2285F09A00E208EC /* ViewController18.swift in Sources */,
 				8A3B16DD228207A900FF8238 /* ChinDessView.swift in Sources */,
 				8A3B16D32281FAA100FF8238 /* AmeriDessView.swift in Sources */,
 				8A3B16D12281FA9500FF8238 /* AmeriDinnView.swift in Sources */,
 				8ADC1D612285FA8B00E208EC /* ViewControllerABI.swift in Sources */,
 				8ADC1D572285F08400E208EC /* ViewController16.swift in Sources */,
+				8AD3B68F228B9BD3001685B2 /* ViewControllerALI.swift in Sources */,
 				8A3B16DF22821F4000FF8238 /* ChinAppView.swift in Sources */,
 				8ADC1D5F2285F0BC00E208EC /* ViewController20.swift in Sources */,
 				8A3B16D92282078800FF8238 /* ChinLuncView.swift in Sources */,
