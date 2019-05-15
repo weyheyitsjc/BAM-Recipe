@@ -1,0 +1,6 @@
+framework module Pods_BamRecipeTests {
+  umbrella header "Pods-BamRecipeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
