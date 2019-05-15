@@ -1,18 +1,24 @@
 //
-//  ViewControllerABI.swift
+//  ViewControllerWeb6.swift
 //  BamRecipe
 //
-//  Created by Brandon Ly on 5/10/19.
+//  Created by Brandon Ly on 5/15/19.
 //
 
 import UIKit
+import WebKit
 
-class ViewControllerABI: UIViewController {
-
+class ViewControllerWeb6: UIViewController {
+    @IBOutlet weak var webView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let recipe = URL(string: "https://www.foodandwine.com/recipes/grilled-gruyere-and-sweet-onion-sandwiches")
+        let request = URLRequest(url: recipe!)
+        
+        webView.load(request)
     }
     
 

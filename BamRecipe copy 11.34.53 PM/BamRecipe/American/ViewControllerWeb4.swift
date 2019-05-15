@@ -1,18 +1,23 @@
 //
-//  ViewControllerABI.swift
+//  ViewControllerWeb4.swift
 //  BamRecipe
 //
-//  Created by Brandon Ly on 5/10/19.
+//  Created by Brandon Ly on 5/15/19.
 //
 
 import UIKit
+import WebKit
+class ViewControllerWeb4: UIViewController {
 
-class ViewControllerABI: UIViewController {
-
+    @IBOutlet weak var webView: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let recipe = URL(string: "http://www.midwestliving.com/recipe/casseroles/herbed-egg-potato-bake")
+        let request = URLRequest(url: recipe!)
+        
+        webView.load(request)
     }
     
 

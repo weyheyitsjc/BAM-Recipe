@@ -20,7 +20,7 @@ class ViewController2: UIViewController {
 
         // Do any additional setup after loading the view.
         let db = Firestore.firestore()
-        db.collection("American").whereField("Type", isEqualTo: "Brunch").getDocuments { (snapshot, error) in
+        db.collection("American").whereField("Type", isEqualTo: "Brunch").whereField("Ingredients", arrayContains: "hash brown potatoes").getDocuments { (snapshot, error) in
             if error != nil {
                 print(error)
             } else {

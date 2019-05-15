@@ -32,6 +32,14 @@
 		8A76745A227CC96B002AF4D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A767458227CC96B002AF4D9 /* LaunchScreen.storyboard */; };
 		8A767465227CC96B002AF4D9 /* BamRecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A767464227CC96B002AF4D9 /* BamRecipeTests.swift */; };
 		8A767470227CCC46002AF4D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A76746F227CCC46002AF4D9 /* GoogleService-Info.plist */; };
+		8AABFDBA228BCFD700C06C74 /* ViewControllerWeb2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AABFDB9228BCFD700C06C74 /* ViewControllerWeb2.swift */; };
+		8AABFDBC228BCFE500C06C74 /* ViewControllerAAAA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AABFDBB228BCFE500C06C74 /* ViewControllerAAAA.swift */; };
+		8AABFDBE228BD1AA00C06C74 /* ViewControllerWeb4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AABFDBD228BD1AA00C06C74 /* ViewControllerWeb4.swift */; };
+		8AABFDC2228BD2A100C06C74 /* ViewControllerWeb5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AABFDC1228BD2A100C06C74 /* ViewControllerWeb5.swift */; };
+		8AABFDC4228BD7B300C06C74 /* ViewControllerA12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AABFDC3228BD7B300C06C74 /* ViewControllerA12.swift */; };
+		8AABFDC6228BD95C00C06C74 /* ViewControllerLV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AABFDC5228BD95C00C06C74 /* ViewControllerLV.swift */; };
+		8AABFDC8228BD99300C06C74 /* ViewControllerWeb6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AABFDC7228BD99300C06C74 /* ViewControllerWeb6.swift */; };
+		8AABFDCA228BD9BC00C06C74 /* ViewControllerWeb7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AABFDC9228BD9BC00C06C74 /* ViewControllerWeb7.swift */; };
 		8ADC1D572285F08400E208EC /* ViewController16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC1D562285F08400E208EC /* ViewController16.swift */; };
 		8ADC1D592285F08E00E208EC /* ViewController17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC1D582285F08E00E208EC /* ViewController17.swift */; };
 		8ADC1D5B2285F09A00E208EC /* ViewController18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC1D5A2285F09A00E208EC /* ViewController18.swift */; };
@@ -83,6 +91,14 @@
 		8A767464227CC96B002AF4D9 /* BamRecipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BamRecipeTests.swift; sourceTree = "<group>"; };
 		8A767466227CC96B002AF4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A76746F227CCC46002AF4D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8AABFDB9228BCFD700C06C74 /* ViewControllerWeb2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWeb2.swift; sourceTree = "<group>"; };
+		8AABFDBB228BCFE500C06C74 /* ViewControllerAAAA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAAAA.swift; sourceTree = "<group>"; };
+		8AABFDBD228BD1AA00C06C74 /* ViewControllerWeb4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWeb4.swift; sourceTree = "<group>"; };
+		8AABFDC1228BD2A100C06C74 /* ViewControllerWeb5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWeb5.swift; sourceTree = "<group>"; };
+		8AABFDC3228BD7B300C06C74 /* ViewControllerA12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerA12.swift; sourceTree = "<group>"; };
+		8AABFDC5228BD95C00C06C74 /* ViewControllerLV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLV.swift; sourceTree = "<group>"; };
+		8AABFDC7228BD99300C06C74 /* ViewControllerWeb6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWeb6.swift; sourceTree = "<group>"; };
+		8AABFDC9228BD9BC00C06C74 /* ViewControllerWeb7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWeb7.swift; sourceTree = "<group>"; };
 		8ADC1D562285F08400E208EC /* ViewController16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController16.swift; sourceTree = "<group>"; };
 		8ADC1D582285F08E00E208EC /* ViewController17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController17.swift; sourceTree = "<group>"; };
 		8ADC1D5A2285F09A00E208EC /* ViewController18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController18.swift; sourceTree = "<group>"; };
@@ -185,6 +201,14 @@
 				8A3B16CE2281F70000FF8238 /* AmeriLuncView.swift */,
 				8A3B16D02281FA9500FF8238 /* AmeriDinnView.swift */,
 				8A3B16D22281FAA100FF8238 /* AmeriDessView.swift */,
+				8AABFDB9228BCFD700C06C74 /* ViewControllerWeb2.swift */,
+				8AABFDBB228BCFE500C06C74 /* ViewControllerAAAA.swift */,
+				8AABFDBD228BD1AA00C06C74 /* ViewControllerWeb4.swift */,
+				8AABFDC1228BD2A100C06C74 /* ViewControllerWeb5.swift */,
+				8AABFDC3228BD7B300C06C74 /* ViewControllerA12.swift */,
+				8AABFDC5228BD95C00C06C74 /* ViewControllerLV.swift */,
+				8AABFDC7228BD99300C06C74 /* ViewControllerWeb6.swift */,
+				8AABFDC9228BD9BC00C06C74 /* ViewControllerWeb7.swift */,
 			);
 			path = American;
 			sourceTree = "<group>";
@@ -427,10 +451,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A17143B22834993005B1077 /* FrenLuncView.swift in Sources */,
+				8AABFDC4228BD7B300C06C74 /* ViewControllerA12.swift in Sources */,
 				8A767452227CC969002AF4D9 /* AmeriBreakView.swift in Sources */,
 				8A17143D228349A9005B1077 /* FrenDinnView.swift in Sources */,
 				8A767450227CC969002AF4D9 /* AppDelegate.swift in Sources */,
 				8A1714372283495D005B1077 /* FrenBreakView.swift in Sources */,
+				8AABFDC2228BD2A100C06C74 /* ViewControllerWeb5.swift in Sources */,
 				8A3B16DB2282079A00FF8238 /* ChinDinnView.swift in Sources */,
 				8A17143F228349B3005B1077 /* FrenDessView.swift in Sources */,
 				8A2A7C1F2285D41F0070753F /* BreakWeb.swift in Sources */,
@@ -439,15 +465,21 @@
 				8A3B16CF2281F70000FF8238 /* AmeriLuncView.swift in Sources */,
 				8A1714392283496E005B1077 /* FrenBrunView.swift in Sources */,
 				8ADC1D5D2285F0B100E208EC /* ViewController19.swift in Sources */,
+				8AABFDCA228BD9BC00C06C74 /* ViewControllerWeb7.swift in Sources */,
 				8A3B16CD2281F3D200FF8238 /* AmeriBrunView.swift in Sources */,
 				8ADC1D5B2285F09A00E208EC /* ViewController18.swift in Sources */,
+				8AABFDC6228BD95C00C06C74 /* ViewControllerLV.swift in Sources */,
 				8A3B16DD228207A900FF8238 /* ChinDessView.swift in Sources */,
 				8A3B16D32281FAA100FF8238 /* AmeriDessView.swift in Sources */,
 				8A3B16D12281FA9500FF8238 /* AmeriDinnView.swift in Sources */,
+				8AABFDBA228BCFD700C06C74 /* ViewControllerWeb2.swift in Sources */,
+				8AABFDC8228BD99300C06C74 /* ViewControllerWeb6.swift in Sources */,
 				8ADC1D612285FA8B00E208EC /* ViewControllerABI.swift in Sources */,
 				8ADC1D572285F08400E208EC /* ViewController16.swift in Sources */,
+				8AABFDBC228BCFE500C06C74 /* ViewControllerAAAA.swift in Sources */,
 				8A3B16DF22821F4000FF8238 /* ChinAppView.swift in Sources */,
 				8ADC1D5F2285F0BC00E208EC /* ViewController20.swift in Sources */,
+				8AABFDBE228BD1AA00C06C74 /* ViewControllerWeb4.swift in Sources */,
 				8A3B16D92282078800FF8238 /* ChinLuncView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
