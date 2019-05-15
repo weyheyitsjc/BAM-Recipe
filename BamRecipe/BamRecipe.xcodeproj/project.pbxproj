@@ -36,6 +36,9 @@
 		8AD3B68F228B9BD3001685B2 /* ViewControllerALI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3B68E228B9BD3001685B2 /* ViewControllerALI.swift */; };
 		8AD3B691228B9BE8001685B2 /* ViewControllerADI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3B690228B9BE8001685B2 /* ViewControllerADI.swift */; };
 		8AD3B693228B9C07001685B2 /* ViewControllerADD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3B692228B9C07001685B2 /* ViewControllerADD.swift */; };
+		8AD3B695228BB281001685B2 /* ViewControllerWeb2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3B694228BB281001685B2 /* ViewControllerWeb2.swift */; };
+		8AD3B697228BBD56001685B2 /* ViewController100.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3B696228BBD56001685B2 /* ViewController100.swift */; };
+		8AD3B699228BC5BC001685B2 /* ViewControllerWeb3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD3B698228BC5BC001685B2 /* ViewControllerWeb3.swift */; };
 		8ADC1D572285F08400E208EC /* ViewController16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC1D562285F08400E208EC /* ViewController16.swift */; };
 		8ADC1D592285F08E00E208EC /* ViewController17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC1D582285F08E00E208EC /* ViewController17.swift */; };
 		8ADC1D5B2285F09A00E208EC /* ViewController18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADC1D5A2285F09A00E208EC /* ViewController18.swift */; };
@@ -91,6 +94,9 @@
 		8AD3B68E228B9BD3001685B2 /* ViewControllerALI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerALI.swift; sourceTree = "<group>"; };
 		8AD3B690228B9BE8001685B2 /* ViewControllerADI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerADI.swift; sourceTree = "<group>"; };
 		8AD3B692228B9C07001685B2 /* ViewControllerADD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerADD.swift; sourceTree = "<group>"; };
+		8AD3B694228BB281001685B2 /* ViewControllerWeb2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWeb2.swift; sourceTree = "<group>"; };
+		8AD3B696228BBD56001685B2 /* ViewController100.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController100.swift; sourceTree = "<group>"; };
+		8AD3B698228BC5BC001685B2 /* ViewControllerWeb3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWeb3.swift; sourceTree = "<group>"; };
 		8ADC1D562285F08400E208EC /* ViewController16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController16.swift; sourceTree = "<group>"; };
 		8ADC1D582285F08E00E208EC /* ViewController17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController17.swift; sourceTree = "<group>"; };
 		8ADC1D5A2285F09A00E208EC /* ViewController18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController18.swift; sourceTree = "<group>"; };
@@ -197,6 +203,9 @@
 				8AD3B68E228B9BD3001685B2 /* ViewControllerALI.swift */,
 				8AD3B690228B9BE8001685B2 /* ViewControllerADI.swift */,
 				8AD3B692228B9C07001685B2 /* ViewControllerADD.swift */,
+				8AD3B694228BB281001685B2 /* ViewControllerWeb2.swift */,
+				8AD3B696228BBD56001685B2 /* ViewController100.swift */,
+				8AD3B698228BC5BC001685B2 /* ViewControllerWeb3.swift */,
 			);
 			path = American;
 			sourceTree = "<group>";
@@ -440,8 +449,10 @@
 			files = (
 				8A17143B22834993005B1077 /* FrenLuncView.swift in Sources */,
 				8AD3B691228B9BE8001685B2 /* ViewControllerADI.swift in Sources */,
+				8AD3B695228BB281001685B2 /* ViewControllerWeb2.swift in Sources */,
 				8A767452227CC969002AF4D9 /* AmeriBreakView.swift in Sources */,
 				8AD3B693228B9C07001685B2 /* ViewControllerADD.swift in Sources */,
+				8AD3B699228BC5BC001685B2 /* ViewControllerWeb3.swift in Sources */,
 				8A17143D228349A9005B1077 /* FrenDinnView.swift in Sources */,
 				8A767450227CC969002AF4D9 /* AppDelegate.swift in Sources */,
 				8A1714372283495D005B1077 /* FrenBreakView.swift in Sources */,
@@ -458,6 +469,7 @@
 				8ADC1D5B2285F09A00E208EC /* ViewController18.swift in Sources */,
 				8A3B16DD228207A900FF8238 /* ChinDessView.swift in Sources */,
 				8A3B16D32281FAA100FF8238 /* AmeriDessView.swift in Sources */,
+				8AD3B697228BBD56001685B2 /* ViewController100.swift in Sources */,
 				8A3B16D12281FA9500FF8238 /* AmeriDinnView.swift in Sources */,
 				8ADC1D612285FA8B00E208EC /* ViewControllerABI.swift in Sources */,
 				8ADC1D572285F08400E208EC /* ViewController16.swift in Sources */,
