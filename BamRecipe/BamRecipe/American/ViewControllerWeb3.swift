@@ -1,21 +1,21 @@
 //
-//  ViewControllerWeb.swift
+//  ViewControllerWeb3.swift
 //  BamRecipe
 //
-//  Created by Brandon Ly on 5/10/19.
+//  Created by Brandon Ly on 5/14/19.
 //
 
 import UIKit
 import WebKit
 
-class ViewControllerWeb: UIViewController {
-    
+class ViewControllerWeb3: UIViewController {
+
     @IBOutlet weak var webView: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let recipe = URL(string: "http://www.midwestliving.com/recipe/sausage-polenta-with-nestled-eggs/")
+        let recipe = URL(string: "http://www.midwestliving.com/recipe/tomato-zucchini-strata/")
         let request = URLRequest(url: recipe!)
         
         webView.load(request)

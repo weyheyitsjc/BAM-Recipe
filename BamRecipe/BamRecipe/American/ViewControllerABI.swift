@@ -11,10 +11,12 @@ import Firebase
 
 class ViewControllerABI: UIViewController {
 
+    @IBOutlet weak var typeView: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        }
     }
     
 
@@ -28,4 +30,3 @@ class ViewControllerABI: UIViewController {
     }
     */
 
-}

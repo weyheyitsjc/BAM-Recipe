@@ -9,25 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    //@IBOutlet var mainButton: UIButton!
 
+    @IBOutlet var saltButtons: [UIButton]!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-       // mainButton.backgroundColor = UIColor.white
-       // mainButton.layer.cornerRadius = mainButton.frame.height / 2
-       // mainButton.setTitleColor(UIColor.blue, for: .normal)
-       
-      //  mainButton.layer.shadowRadius = 2
-       // mainButton.layer.shadowOpacity = 0.5
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+        @IBAction func handleSelection(_ sender: UIButton) {
+            saltButtons.forEach { (button) in
+                UIView.animate(withDuration: 0.3, animations: {
+                    button.isHidden = !button.isHidden
+                 })
+        }
+    }
+    @IBAction func saltTapped(_ sender: UIButton) {
+    }
 }
-
