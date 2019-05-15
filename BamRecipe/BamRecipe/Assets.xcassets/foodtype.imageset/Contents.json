@@ -2,12 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Title.png",
+      "filename" : "foodtype.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Title-1.png",
       "scale" : "2x"
     },
     {
