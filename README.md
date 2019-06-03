@@ -3,17 +3,17 @@ BAM! Recipe is a iOS application that provides users with recipes. The recipes a
 
 ## Authors
 * __Brandon Ly__
-  *ID: bl584
-  *graduation year: 2023
+..*ID: bl584
+..*graduation year: 2023
 * __Le Trinh__
-  *ID: lkt35
-  *graduation year: 2022
+..*ID: lkt35
+..*graduation year: 2022
 * __Sandy Yang__
-  *ID: sy556
-  *graduation year: 2023
+..*ID: sy556
+..*graduation year: 2023
 * __Jacy Yu__
-  *ID: jy529
-  *graduation year: 2023
+..*ID: jy529
+..*graduation year: 2023
 
 ## Built With
 * __Xcode__ - The integrated development environment (IDE) used
