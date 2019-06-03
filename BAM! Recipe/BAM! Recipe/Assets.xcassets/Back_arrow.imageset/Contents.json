@@ -2,11 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Back.jpg",
+      "filename" : "baseline_arrow_back_black_48pt_3x.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "baseline_arrow_back_black_48pt_2x.png",
       "scale" : "2x"
     },
     {
