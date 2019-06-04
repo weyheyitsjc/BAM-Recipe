@@ -11,7 +11,7 @@ BAM! Recipe is a iOS application that provides users with recipes. The recipes a
 * __Sandy Yang__ 
     * ID: sy556
     * graduation year 2023
-* __Jacy Yu__ s
+* __Jacy Yu__ 
     * ID: jy529
     * graduation year 2023
 
